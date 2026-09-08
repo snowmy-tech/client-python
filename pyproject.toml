@@ -51,7 +51,7 @@ workflow_payload_offloading = [
     "mistralai[workflow_payload_offloading_s3]",
 ]
 workflow_payload_encryption = [
-    "cryptography>=41.0.0,<47.0.0",
+    "cryptography>=41.0.0,<51.0.0",
 ]
 workflow_payload_compression = [
     "msgpack>=1.1.0,<2.0.0",
